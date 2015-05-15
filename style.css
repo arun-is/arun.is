@@ -1,0 +1,16 @@
+body {
+    background-color: #ffb400;
+    color: #ffffff;
+    text-transform:uppercase;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-size: 120%;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+}
