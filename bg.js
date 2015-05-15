@@ -13,7 +13,7 @@ function draw() {
 
 var Line = function(position) {
     this.length = random(15, 25);
-    this.speed = random(-15, -1);
+    this.speed = random(-15, -5);
     this.lifespan = random(-1000/this.speed, -3000/this.speed);
     this.velocity = createVector(this.speed, this.speed);
     var x = random(0, 2*windowWidth);
