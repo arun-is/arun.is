@@ -1,10 +1,8 @@
-var system, width, height;
+var system;
 
 function setup() {
-    createCanvas(document.body.clientWidth, document.body.clientHeight);
+    createCanvas(windowWidth, windowHeight);
     system = new LineSystem();
-    width = document.body.clientWidth;
-    height = document.body.clientHeight;
 }
 
 function draw() {
@@ -18,8 +16,8 @@ var Line = function(position) {
     this.speed = random(-15, -1);
     this.lifespan = random(250, 500);
     this.velocity = createVector(this.speed, this.speed);
-    var x = random(0, 2*width);
-    var y = -x * (2 * width / height) + 2 * width;
+    var x = random(0, 2*windowWidth);
+    var y = -x * (2 * windowWidth / windowHeight) + 2 * width;
     this.position = createVector(x, y);
 };
 
