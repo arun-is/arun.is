@@ -14,11 +14,11 @@ function draw() {
 }
 
 var Line = function(position) {
-    this.length = random(2, 15);
-    this.speed = random(-10, -2);
-    this.lifespan = random(200, 400);
+    this.length = random(5, 20);
+    this.speed = random(-15, -1);
+    this.lifespan = random(250, 500);
     this.velocity = createVector(this.speed, this.speed);
-    var x = random(0, width);
+    var x = random(0, 2*width);
     var y = -x * (2 * width / height) + 2 * width;
     this.position = createVector(x, y);
 };
