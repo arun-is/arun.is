@@ -1,6 +1,6 @@
 body {
-    background-color: #ffb400;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #ffb400;
     text-transform:uppercase;
     font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     font-size: 120%;
@@ -8,7 +8,7 @@ body {
 }
 
 a {
-    color: #ffffff;
+    color: #ffb400;
     text-decoration: none;
 }
 
