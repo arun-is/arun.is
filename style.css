@@ -47,6 +47,10 @@ a:hover {
     color: #3b5998;
 }
 
+.arunhasablog-link:hover {
+    color: #ffb400;
+}
+
 .dark-gray {
     color: #999;
 }
