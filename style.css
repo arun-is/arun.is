@@ -1,47 +1,33 @@
-body {
-    background-color: #ffffff;
-    color: #000000;
-    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-    font-size: 120%;
-    margin: 0px;
+.max-sm {
+    max-width: 30em;
+}
+
+.svg-icon {
+    fill: currentColor;
 }
 
 a {
-    text-decoration: none;
+    color:#999;
 }
 
 a:hover {
-    color: #000000;
+    text-decoration: none;
+    color: #000;
 }
 
-#text {
-    margin: 20px auto;
-    width: 500px;
+.dribbble-link:hover {
+    color: #E72976;
 }
 
-.txtyel {
-    color: #ffb400;
+.tumblr-link:hover {
+    color: #35465c;
 }
 
-.left {
-    text-align: right;
-    margin-right: 3px;
-    float: left;
+.flickr-link:hover {
+    color: #0063dc;
 }
 
-.right {
-    text-align: left;
-    margin-left: 3px;
-    float: right;
+.dark-gray {
+    color:#999;
 }
 
-.block {
-    width: 247;
-    height: 30px;
-}
-
-.separator {
-    width: 100%;
-    height: 30px;
-    float: left;
-}
