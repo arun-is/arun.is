@@ -27,7 +27,27 @@ a:hover {
     color: #0063dc;
 }
 
+.instagram-link:hover {
+    color: #e4405f;
+}
+
+.medium-link:hover {
+    color: #00ab6c;
+}
+
+.linkedin-link:hover {
+    color: #006087;
+}
+
+.twitter-link:hover {
+    color: #55acee;
+}
+
+.facebook-link:hover {
+    color: #3b5998;
+}
+
 .dark-gray {
-    color:#999;
+    color: #999;
 }
 
