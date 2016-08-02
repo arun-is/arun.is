@@ -74,10 +74,29 @@
 		.dark-gray {
 		    color: #999;
 		}
+        
+        .rainbow {
+            -webkit-animation: hue-rotate 120s infinite linear;
+          }
+        /*-----------------------------------*\
+          $ANIMATIONS
+        \*-----------------------------------*/
+
+        @-webkit-keyframes hue-rotate {
+          from {
+            -webkit-filter: hue-rotate(0deg);
+          }
+
+          to {
+            -webkit-filter: hue-rotate(-360deg);
+          }
+        }
+        
+        
 	</style>
 </head>
 <body>
-	<div class="bg-aqua white">
+	<div class="bg-aqua white rainbow">
 		<p class="max-sm mx-auto px2 py1">
 			Full portfolio coming soon!
 		</p>
@@ -151,7 +170,7 @@
 			</div>
 		</div>
 		<hr>
-		<h2>
+		<h2 class="aqua rainbow">
 			Design
 		</h2>
 		<div class="clearfix">
@@ -173,7 +192,7 @@
 			</div>
 		</div>
 
-		<h2>Photography</h2>
+		<h2 class="aqua rainbow">Photography</h2>
 		<div class="clearfix">
 			<div class="col col-6 sm-col-4">
 				<a class="flickr-link" href="http://www.flickr.com/photos/ddrmaxgt37/">
@@ -195,7 +214,7 @@
 			</div>
 		</div>
 
-		<h2>Writing</h2>
+		<h2 class="aqua rainbow">Writing</h2>
 		<div class="clearfix">
 			<div class="col col-6 sm-col-4">
 				<a class="arunhasablog-link" href="http://www.arunhasablog.com/">
@@ -214,7 +233,7 @@
 				</a>
 			</div>
 		</div>
-		<h2>
+		<h2 class="aqua rainbow">
 			Elsewhere on the web
 		</h2>
 		<div class="clearfix">
